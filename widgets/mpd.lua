@@ -91,7 +91,7 @@ local function worker(args)
 
                 mpd.id = naughty.notify({
                     preset = mpd_notification_preset,
-                    icon = "~/mpdcover.png",
+                    icon = "/home/chris/mpdcover.png",
                     replaces_id = mpd.id
                 }).id
             end
